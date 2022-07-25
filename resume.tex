@@ -25,6 +25,7 @@
 \colorlet{heading}{ArchBlue}
 \colorlet{headingrule}{ArchBlue}
 \colorlet{accent}{ArchBlue}
+\colorlet{}{}
 \colorlet{emphasis}{01black}
 \colorlet{body}{01black}
 
@@ -38,8 +39,8 @@
     \hspace{28}
     \phone{(909) 325-9532}
     \hspace{15}
-    \location{Huntsville, AL}
     \newline
+    \location{Huntsville, AL}
     \homepage{marcoagarcia.com}
     \github{magarcia0}
 
@@ -48,62 +49,71 @@
     \makecvheader
 
     \AtBeginEnvironment{itemize}{\small}
-
     \columnratio{0.6}
 
     \begin{paracol}{2}
 
       \cvsection{Experience}
 
-      \cvevent{Grader}{CSU Chico}{January 2022 - May 2022}{Chico, CA}
+      \cvevent{\textbf{Full Stack Developer}}{Self}{June 2022 - Current}{Huntsville, AL}
+      \begin{itemize}
+          \item Consult with clients face to face to obtain requirements
+          \item Design website UI using Adobe XD to create wireframes
+          \item Build websites using a modern framework and tools based on client requirements 
+          \item Ensure websites are mobile and accessibility friendly
+          \item Maintain and update websites based on client needs and requests
+          \item Run audits to ensure page quality is optimal on clients websites
+      \end{itemize}
+
+      \cvevent{\textbf{Grader}}{CSU Chico}{January 2022 - May 2022}{Chico, CA}
       \begin{itemize}
           \item Uploaded student assignments to Gradescope
           \item Graded student assignments 
           \item Uploaded grades to Blackboard
       \end{itemize}
 
-      \cvevent{Webmaster}{Run For Health 5k}{December 2020 - June 2021}{Chico, CA}
+      \cvevent{\textbf{Webmaster}}{Run For Health 5k}{December 2020 - June 2021}{Chico, CA}
       \begin{itemize}
           \item Consulted a client on a web based solution for their online presence needs
           \item Created a modern website for the client based on customer requirements 
           \item Maintained and updated the website based on customer requests and needs
       \end{itemize}
-
-      \cvevent{Painter}{Herston Painting Inc.}{2018 - 2021 (summer job)}{Huntsville, AL}
-      \begin{itemize}
-        \item Prepared surfaces before application of paint (drywall repairs, putty, caulking, sanding, and masking)
-        \item Maintained a clean and safe work environment
-        \item Applied different coating materials using advanced techniques (gas and electric spray machine, rollers, brushes, etc.) to appropriate surfaces (epoxy on garage floors, enamel paints on wood trim, oil paint for metals)
-      \end{itemize}
-
-      \cvevent{Painter}{First Quality Painting}{2014 - 2016}{Chino, CA}
-      \begin{itemize}
-        \item Covered surfaces with drop cloths or masking tape and paper to protect surfaces during painting
-        \item Filled cracks, holes, or joints with caulk, putty, plaster, or other fillers using caulking guns, putty knives, or hands
-        \item Applied paint, enamel, or other finishes to buildings using brushes, spray guns, or rollers
-        \item Removed fixtures such as pictures, door knobs, lamps, or electric switch covers prior to painting
-        \item Smoothed surfaces using sandpaper, scrapers, or sanding machines
-      \end{itemize}
       
-      \divider
+      \cvsection{Educational Experience}
+      \begin{itemize}
+          \item Installation and configuration of Virtual Machines using VMWare: Arch Linux, Ubuntu, CentOS
+          \item Shell scripting using Bash and Python
+          \item Cisco switch and router configuration
+          \item Robot localization via Machine Learning using C++
+          \item Created full stack website using Django framework and Python
+          \item Built Android mobile app using Flutter and Dart
+          \item Utilized Docker and GCP to deploy website
+          \item Created basic P2P file sharing program using C
+          \item Utilized Splunk to sift through data for log analysis
+          \item Found passwords using cryptography and password cracking tools: Hashcat, John the Ripper, Steghide
+          \item Root-Solving with Linear and Non-Linear Systems
+          \item Linear Systems and Series with MPI and OpenMP
+          \item MPI and Error Estimation for Non-Linear Systems
+          \item Grid and Matrix Processing with Shared Memory Threading
+          \item Familiarity with Matrices and Using Concurrency for Speed-Up
+          \item Created basic shell which took the following commands: quit, bg, fg, and jobs
+          \item Built basic FCFS, Round Robin, and Multi-level (quanta of 4 time units) schedulers using C
 
-
-      \cvsection{Education}
-
-      \cvevent{B.S.\ in Computer Science}{California State University, Chico}{Aug. 2018 - May 2022}{Chico, CA}
-
-      \divider
+      \end{itemize}
       
       \switchcolumn
-      \divider
-      \cvevent{A.A.\ degree in University Studies with a Math and Science Emphasis}{Chaffey College}{2016 - May 2018}{Rancho Cucomonga, CA}
+      
+      
+      \cvsection{Education}
+      \cvevent{B.S.\ in Computer Science}{California State University, Chico}{2018 - 2022}{Chico, CA}
 
       \divider
+      \cvevent{A.A.\ degree in University Studies with a Math and Science Emphasis}{Chaffey College}{2016 - 2018}{Rancho Cucamonga, CA}
 
-      \cvevent{H.S. Diploma}{ Don Lugo High School}{2016 - 2010}{Chino, CA}
-
+      \divider
+      \cvevent{H.S. Diploma}{ Don Antonio Lugo High School}{2006 - 2010}{Chino, CA}
+      
       %\divider\smallskip
-
       \cvsection{Technical Skills}
       \textbf{Programming Languages: }
       \newline
@@ -142,6 +152,7 @@
       \newline
       \cvtag{Prisma}
       \cvtag{SendGrid}
+      \cvtag{AdobeXD}
 
       \textbf{Frameworks:}
       \newline
@@ -171,7 +182,6 @@
       \item marcoagarcia.com
       \item laqualitypainting.com
       \end{itemize}
-      
       %\cvsection{References}
 
     \end{paracol}
